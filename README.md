@@ -1,14 +1,31 @@
 # Multi-Objective-Intelligent-Academic-Timetable-Scheduling-System-By-Hybrid-Optimization-Techniques.
 
-## Run locally
+An AI-based academic timetable scheduling system that automatically generates optimized timetables using hybrid optimization techniques while reducing teacher, classroom, and time-slot conflicts.
 
-Set a strong initial admin password before the first run. In PowerShell:
+Features
+- Automatic timetable generation
+- Teacher and student login
+- Admin dashboard
+- Conflict detection
+- Teacher and classroom management
+- Timetable editing and notifications
+- PDF timetable download
+  
+Technologies Used
+- Backend: Python, Flask
+- Frontend: HTML, CSS, JavaScript
+- Database: SQLite
+- Optimization: Hybrid optimization techniques
+Installation
+pip install -r requirements.txt
 
-```powershell
-$env:ADMIN_DEFAULT_PASSWORD = "choose-a-strong-password"
+
+Run Project
+$env:ADMIN_DEFAULT_PASSWORD = "your-password"
 python app.py
-```
 
-The password is used only when initializing an empty database. Keep it out of
-source control. To run the end-to-end test, set the same environment variable
-in the test terminal before running `python scripts\e2e_test.py`.
+
+Open: http://127.0.0.1:5000/
+
+Objective
+To simplify academic timetable preparation through intelligent scheduling, efficient resource utilization, and conflict reduction.
