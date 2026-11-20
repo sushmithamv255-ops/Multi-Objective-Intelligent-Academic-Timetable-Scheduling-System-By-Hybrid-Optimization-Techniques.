@@ -1,0 +1,6 @@
+Set a strong initial admin password in PowerShell before starting the app:
+
+$env:ADMIN_DEFAULT_PASSWORD = "choose-a-strong-password"
+python app.py
+
+Running on http://127.0.0.1:5000/
